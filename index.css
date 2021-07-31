@@ -1,0 +1,72 @@
+@media (max-width:767px) {
+    .navbar-brand span:before { 
+        content: ' '; display: block; }
+    /* .navbar{
+        font-size: 1rem;
+    } */
+}
+.navbar-nav .nav-item .nav-link{
+    color: red !important;
+    font-weight: 400;
+    font-size: large;
+}
+.navbar-brand{
+    color: red !important;
+    font-weight: 400;
+    font-size: large;
+}
+.navbar{
+    background-color: white;
+}
+.bo{
+    background:linear-gradient(to bottom,#B2FEFA, #0ED2F7);
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: green !important;
+    font-size: 1.3rem;
+    text-decoration: underline green;
+}
+.navbar-nav .nav-item .nav-link.active{
+    color: green !important;
+    font-size: 1.3rem;
+    text-decoration: underline green;
+}
+#what{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+.circle{
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: #ffaf00;
+    color: white;
+    padding: 20%;
+}
+.card{
+    margin: 5%;
+    text-align: center;
+    display:inline-block;
+    border-radius: 5%;
+}
+.rm{
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    font-size: large;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+/* Footer css */
+.footer{
+    background-color: #05143f;
+    color: white;
+    text-align: left;
+}
+.footer a{
+    color: orange !important;
+}
+.footer h5{
+    font-weight: bold;
+}
