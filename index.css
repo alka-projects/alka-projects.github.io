@@ -26,11 +26,11 @@
     font-size: 1.3rem;
     text-decoration: underline green;
 }
-.navbar-nav .nav-item .nav-link.active{
+/* .navbar-nav .nav-item .nav-link.active{
     color: green !important;
     font-size: 1.3rem;
     text-decoration: underline green;
-}
+} */
 #what{
     color: red;
     font-weight: bold;
